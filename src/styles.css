@@ -1,0 +1,56 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  /*Для 2-го варианта:*/
+  .table {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    table-layout: fixed;
+  }
+  .header {
+    background-color: rgb(31, 168, 210);
+    padding: 5px 20px;
+    color: whitesmoke;
+    text-align: center;
+  }
+  .table-data {
+    text-align: center;
+    padding: 5px 10px;
+    background-color: rgb(176, 237, 255);
+    border: 1px solid black;
+    word-wrap: break-word;
+  }
+  
+  /*Для 1-го варианта: */
+  table {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  th {
+    background-color: rgb(31, 168, 210);
+    padding: 5px 20px;
+    color: whitesmoke;
+  }
+  
+  .table-data {
+    text-align: center;
+    padding: 5px 10px;
+    background-color: rgb(176, 237, 255);
+  }
+  
+  .Modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 4px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
